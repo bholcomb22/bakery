@@ -1,0 +1,501 @@
+/* Cascading Stylesheets */
+/* CSS selector */
+
+body{font-family: 'Taviraj', serif;}
+
+
+#navigation {
+	opacity: .8;
+}
+
+.navbar-brand {
+	font-family: 'Italianno', cursive;
+	font-size: 2rem;
+	padding: 0px;
+	margin-left: 15%;
+}
+
+.navbar-nav {
+	margin-left: 12%;
+}
+
+.sep{
+	margin: 0 15px 0 15px;
+	position: relative;
+	top: 8px;
+	color: white;
+
+}
+
+a.nav-link {
+	padding: 8px 0 8px 0;
+	font-family: 'Taviraj', serif;
+}
+
+#first{
+	height: 600px;
+	background-image: url(../img/bread2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 0px;
+}
+
+#text {
+	text-align: center;
+}
+
+.title {
+	color: white;
+	font-size: 60px;
+	padding-top: 150px;
+	font-family: 'Taviraj', serif;
+
+}
+
+.under-text {
+	color: white;
+	margin-top: 60px;
+}
+
+#menu {
+	margin-top: 20px;
+	color: white;
+	background-color: rgba(0,0,0,.3);
+	border: none;
+	width: 150px;
+	height: 40px;
+
+}
+
+#art {
+	height: 600px;
+	background-color: rgba(255,255,0,.08);
+	background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}
+#chef h1{
+	padding-top: 75px;
+	margin-bottom: 0px;
+}
+.burnt {
+	color: #A68063;
+	margin-bottom: 50px;
+}
+.desc {
+	font-size: 13px;
+	width: 75%;
+	margin: 50px auto 25px auto;
+}
+
+#sprite {
+	display: flex;
+  	align-items: center;
+  	text-align: center;
+  	width: 75%;
+  	margin: auto;
+
+}
+#img {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	background-image: url(../img/chef.jpg);
+	background-position: 72% 5%;
+	background-size: 200px 150px;
+	border-radius: 50%;
+}
+
+.in {
+	display: inline-block;
+	position: relative;
+	padding: 8px 0;
+	width: 80px;
+	margin: auto;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	
+}
+.quote{
+	position: relative;
+}
+
+.quotations {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	position: relative;
+	margin-right: 40px;
+	bottom: 45px;
+	color: 	gray;
+
+}
+.quotations2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	color: gray;
+	position: relative;
+	top: 20px;
+	margin-left: 10px;
+	
+}
+	
+
+
+.cursive {
+	color: #A68063;
+	font-size: 30px;
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	display: inline-block;
+	padding-top: 25px;
+	
+}
+
+#art-chef > img {
+	margin-top: 84px;
+}
+
+/*Reciper card */
+#recipe {
+	height: 700px;
+	background-size: cover;
+	background-image: url(../img/recipe.jpg);
+}
+
+#card {
+	width: 75%;
+	height: 600px;
+	margin: auto;
+	padding-top: 160px;
+	overflow: none;
+}
+
+#rec-image {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+#words {
+	background-color: white;
+	padding: 50px 30px;
+}
+
+#words > h1 {
+	margin-bottom: 0px;
+}
+
+#words > p {
+	margin: 50px 0;
+	font-size: 14px;
+}
+
+#words, #rec-image {
+	margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+#carouselExampleControls {
+	max-height: 120px;
+	overflow: hidden;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
+}
+
+.c-img {
+	border-radius: 50%;
+}
+
+#recipe {
+	position: relative;
+}
+
+#timer{
+	width: 175px;
+	height: 175px;
+	background-image: url(../img/timer.jpg);
+	background-size: cover;
+	background-position: 65% 25%;
+	background-color: rgba(255,255,255,.8);
+	background-blend-mode: lighten; 
+	position: absolute;
+	box-shadow: -10px 10px 15px rgba(0,0,0,.2);
+	z-index: 1;
+	left: 68%;
+	top: 12%;
+	text-align: center;
+}
+
+.rec-p {
+	color: #A68063;
+}
+
+.time {
+	color: #DFC691;
+	font-size: 48px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+/* Menu */
+#break {
+	height: 700px;
+	background-image: url(../img/board.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.lowkey {
+	margin-top: 100px;
+}
+.lowkey > span {
+	margin-bottom: 50px;
+}
+.food-item {
+	color: white;
+	margin-top: 40px;
+	font-size: 1.6rem;
+}
+.details {
+	color: lightgray;
+}
+
+.price {
+	color: #dfc691;
+}
+
+.wtitle {
+	color: white;
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+#info-card{
+	background-color: rgba(243, 241, 233, .8);
+	background-blend-mode: lighten;
+	background-position: 50% 0;
+	background-image: url(../img/leaf.png);
+	padding: 5px;
+	margin-top: 120px;
+	max-width: 350px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.2);
+}
+
+#dotted {
+	padding: 20px 40px;
+	border: 1px dashed black;
+}
+.read {
+	background-color: rgba(255,255,255,.1);
+	width: 150px;
+	height: 38px;
+}
+
+.year{
+	display: inline-block;
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+.year1 {
+	margin-right: 40%;
+}
+
+.escape{
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+
+.desv {
+	font-size: 12px;
+	margin-bottom: 35px;
+}
+.wrap {
+	background-color: rgb(243, 241, 233);
+	max-width: 350px;
+}
+
+/* Sandwhich */
+
+#sandwich{
+	background-color: #f3f1e9;
+	height: 900px;
+	text-align: center;
+	position: relative;
+}
+
+.head {
+	border-radius: 40%;
+	background-color: rgba(243, 241, 233, .5);
+	background-image: url(../img/farm.png);
+	background-size: cover;
+	margin: 0 auto;
+	background-blend-mode: lighten; 
+	height: 150px;
+	width: 45%;
+	background-repeat: no-repeat; 
+}
+
+.head h1{
+	font-size: 30px;
+	padding-top: 23%;
+}
+
+.head p {
+	color:#A68063;
+	font-size: 12px;
+}
+
+.ingre {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 18px;
+}
+
+.titl{
+	color: #A68063;
+	margin-top: 8px;
+	font-size: 18px;
+}
+.disc{
+	font-size: 11px;
+}
+
+#card2{
+	background-image: url(../img/sand.jpg);
+	background-size: cover;
+	min-height: 400px;
+	border: 8px solid white;
+	margin-top: 75px;
+}
+
+#inst {
+	position: absolute;
+	width: 175px;
+	height: 525px;
+	left: 76%;
+	top: 22%;
+	z-index: 1;
+}
+
+.trans-box{
+	height: 150px;
+	width: 150px;
+	background-color: rgba(255,255,255,.8);
+}
+
+#sandwich .trans-box:nth-child(-n+2) .time {
+	color: black;
+	font-size: 35px;
+}
+
+#sandwich .rec-p {
+	margin-bottom: 0px;
+}
+#sandwich .trans-box:nth-child(1) {
+	border-bottom: 1px solid black;
+}
+#sandwich .trans-box:nth-child(3){
+	background-image: url(../img/timer.jpg);
+	background-blend-mode: lighten;
+	background-size: cover;
+}
+
+.foot-ul, .foot-ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 0 10px;
+}
+
+.foot-ul {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	padding: 10px 0;
+}
+
+footer {
+	margin-top: 75px;
+}
+
+footer p {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+footer span {
+	font-family: 'Italianno', cursive;
+	font-size: 35px;
+	margin: 0 30px;
+}
+
+@media(max-width: 563px){
+	#timer {
+		margin: auto;
+		top: 0;
+		left: 0;
+	}
+	#art {
+		height: auto;
+		width: 100%;
+	}
+	#recipe {
+		height: 1150px;
+		width: 100%;
+	}
+	#recipeCarousel {
+		padding-bottom: 50px;
+	}
+
+	#break {
+		width: 100%;
+		height: 1200px;
+	}
+
+	.head{
+		width: 100%;
+	}
+	#sandwich{
+		height: auto;
+	}
+	#inst {
+		top: 55%;
+		left: 60%;
+	}
+
+	.img-list {
+		margin-top: 50px;
+	}
+
+}
+
+
+
+@media(max-width: 450px){
+	.quotations{
+		margin-right: 5px;
+	}
+	.quotations2{
+		margin-left: 5px;
+	}
+}
+
