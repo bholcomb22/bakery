@@ -30,6 +30,11 @@ body{font-family: 'Taviraj', serif;}
 a.nav-link {
 	padding: 8px 0 8px 0;
 	font-family: 'Taviraj', serif;
+	transition: 1s;
+}
+a.nav-link:hover {
+	color: yellow !important;
+
 }
 
 #first{
@@ -65,7 +70,16 @@ a.nav-link {
 	border: none;
 	width: 150px;
 	height: 40px;
+	transition: .5s ease;
 
+}
+
+#menu:hover{
+	width: 175px;
+	height: 50px;
+	background-color: black;
+	transition: .5s ease;
+	cursor: pointer;
 }
 
 #art {
@@ -160,6 +174,10 @@ a.nav-link {
 	background-size: cover;
 	background-image: url(../img/recipe.jpg);
 }
+#height {
+	max-height: 500px;
+	overflow: hidden;
+}
 
 #card {
 	width: 75%;
@@ -241,6 +259,13 @@ a.nav-link {
 	left: 68%;
 	top: 12%;
 	text-align: center;
+	transition: .5s ease;
+}
+
+#timer:hover {
+	height: 200px;
+	width: 200px;
+	transition: .5s ease;
 }
 
 .rec-p {
@@ -484,6 +509,9 @@ footer span {
 
 	.img-list {
 		margin-top: 50px;
+	}
+	#height {
+		max-height: 1000px;
 	}
 
 }
